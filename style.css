@@ -1,0 +1,8 @@
+body > div {
+  background-color: gray;
+}
+body > .left-side {
+  height: 100vh;
+  width: 15%;
+  background-color: green;
+}
