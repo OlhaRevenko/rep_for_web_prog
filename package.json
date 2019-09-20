@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlhaRevenko/rep_for_web_prog.git"
+  },
+  "author": "OlhaRevenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlhaRevenko/rep_for_web_prog/issues"
+  },
+  "homepage": "https://github.com/OlhaRevenko/rep_for_web_prog#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "less": "^3.10.3"
+  }
+}
