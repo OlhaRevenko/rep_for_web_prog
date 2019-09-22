@@ -2,12 +2,43 @@
 @left-bgcolor: green;
 @height: 100vh;
 
-body>div {
-    background-color: gray;// @bgcolor;
+
+body>.top-left-side {
+    position: fixed;
+    height: 80px;//@height;
+    width: 200px;
+    background-color: rgb(4, 196, 100);
+    border: 1px solid gray;
+}
+body>.left-side {
+    top: 88px;
+    position: fixed;
+    height: 85%;
+    width: 196px;
+    background-color: gray;
+    border: 1px solid gray;
 }
 
-body>.left-side {
-    height: @height;
-    width: 15%;
-    background-color: green;//@left-bgcolor;
+body>.first_block {
+    position: fixed;
+    background-color:white;// @bgcolor;
+    left: 15%;
+    height: 80px;
+    width: 100%;
+    border: 1px solid gray;
+}
+body>.second_block{
+    background-color: white;
+    left: 15%;
+    top: 100px;
+    height: 240px;
+    width: 100%;
+    border: 1px solid gray;
+}
+body>.third_block{
+    background-color: gray;
+  //  left: 15%;
+    //top: 240px;
+    height:100%;
+    width:100%;
 }
