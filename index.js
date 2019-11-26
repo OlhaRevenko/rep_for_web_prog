@@ -11,6 +11,7 @@ app.use(cors({
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
+/*
 app.get('/style.less', function(req, res) {
     res.sendFile(path.join(__dirname + '/style.less'));
 });
@@ -20,6 +21,11 @@ app.get('/Semantic-UI-CSS-master/semantic.min.css', function(req, res) {
 app.get('/Semantic-UI-CSS-master/semantic.min.js', function(req, res) {
     res.sendFile(path.join(__dirname + '/Semantic-UI-CSS-master/semantic.min.js'));
 });
+//*/
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname + req.url));
+});
+
 /*//
 app.get('/request', function(req, res) {
     res.sendFile(path.join(__dirname + '/file.ext'));
